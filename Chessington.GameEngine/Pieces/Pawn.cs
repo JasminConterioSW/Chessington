@@ -21,7 +21,7 @@ namespace Chessington.GameEngine.Pieces
             if (Player == Player.White)
             {
                 availableMoves.Add(new Square(currentPosition.Row - 1, currentPosition.Col));
-                if (currentPosition.Row == boardSize-1)
+                if (currentPosition.Row == boardSize-2)
                 {
                     availableMoves.Add(new Square(currentPosition.Row - 2, currentPosition.Col));
                 }
