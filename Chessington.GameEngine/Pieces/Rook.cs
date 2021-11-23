@@ -12,7 +12,7 @@ namespace Chessington.GameEngine.Pieces
         {
 
             var currentPosition = board.FindPiece(this);
-            var availableMoves = Moves.LateralMoves.AddMoves(board.BoardSize,currentPosition);
+            var availableMoves = Moves.LateralMoves.AddMovesOverWholeBoard(board.BoardSize,currentPosition);
             
             availableMoves.RemoveAll(m => m == currentPosition);
             

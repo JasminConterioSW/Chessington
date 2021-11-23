@@ -5,7 +5,7 @@ namespace Chessington.GameEngine.Pieces.Moves
 {
     public static class LateralMoves
     {
-        public static List<Square> AddMoves(int boardSize, Square currentPosition)
+        public static List<Square> AddMovesOverWholeBoard(int boardSize, Square currentPosition)
         {
             var availableMoves = new List<Square>();
 
@@ -19,5 +19,18 @@ namespace Chessington.GameEngine.Pieces.Moves
             
             return availableMoves;
         }
+        
+        public static List<Square> AddSingleStepMoves(Square currentPosition)
+        {
+            var availableMoves = new List<Square>();
+
+            availableMoves.Add(Square.At(currentPosition.Row, currentPosition.Col + 1));
+            availableMoves.Add(Square.At(currentPosition.Row, currentPosition.Col - 1));
+            availableMoves.Add(Square.At(currentPosition.Row+1, currentPosition.Col));
+            availableMoves.Add(Square.At(currentPosition.Row-1, currentPosition.Col));
+
+            return availableMoves;
+        }
+        
     }
 }
