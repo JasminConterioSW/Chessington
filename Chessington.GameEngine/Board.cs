@@ -9,7 +9,9 @@ namespace Chessington.GameEngine
     {
         private readonly Piece[,] board;
         public Player CurrentPlayer { get; private set; }
-        public IList<Piece> CapturedPieces { get; private set; } 
+        public IList<Piece> CapturedPieces { get; private set; }
+
+        public readonly int BoardSize;
 
         public Board()
             : this(Player.White) { }
@@ -19,6 +21,7 @@ namespace Chessington.GameEngine
             board = boardState ?? new Piece[GameSettings.BoardSize, GameSettings.BoardSize]; 
             CurrentPlayer = currentPlayer;
             CapturedPieces = new List<Piece>();
+            BoardSize = GameSettings.BoardSize;
         }
 
         public void AddPiece(Square square, Piece pawn)
