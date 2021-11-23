@@ -1,0 +1,65 @@
+[33mcommit da192eaa799340e8b465bdb85e29021119995a70[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 13:49:47 2017 +0000
+
+    Added Unit Tests for Bishop movement
+
+[33mcommit 8fffe63553fa1611ca8b071e14a58a105c1a76b4[m
+Author: Jasmin Conterio <Jasmin.Conterio@softwire.com>
+Date:   Tue Nov 23 14:20:01 2021 +0000
+
+    Passing Red-03 tests
+
+[33mcommit 158913291ef91463d80213d9cd1d20f968bd7d1c[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 13:47:47 2017 +0000
+
+    Passing corrected Red-02 tests
+
+[33mcommit 3853b90b1c8ca10246416f28d75689e3998bba2a[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 13:48:56 2017 +0000
+
+    Added Unit Tests for Rook movement
+
+[33mcommit d463229ec08dee819acda005e46621c1e220d474[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jasmin Conterio <Jasmin.Conterio@softwire.com>
+Date:   Tue Nov 23 12:55:59 2021 +0000
+
+    Working for Red-02
+
+[33mcommit 5cc2bdabde8c1f56c8dd176aebf7c5c37b1e6c02[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 13:47:47 2017 +0000
+
+    Added Unit Tests for pawns moving two spaces initially
+
+[33mcommit 072355ec852bca10ea2cedc799e5b6604770d40f[m
+Author: Jasmin Conterio <Jasmin.Conterio@softwire.com>
+Date:   Tue Nov 23 12:25:54 2021 +0000
+
+    Passing Red-01 tests
+
+[33mcommit 42c22b07d2c516fb6fffc68ec9219743a1ce5b44[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 13:44:20 2017 +0000
+
+    Added Unit Tests
+
+[33mcommit 022d72c4e5d2943b092386e6d129fe614b87e68b[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 15:04:24 2017 +0000
+
+    Add README
+
+[33mcommit ccde8471c5a53a8f7d8e29c5cc11ef72f74211f9[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 12:57:07 2017 +0000
+
+    Initial state
+
+[33mcommit c5cdc4512bba192657d936a55f8e320e2be4d6df[m[33m ([m[1;31morigin/Complete[m[33m)[m
+Author: Matthew Richards <Matthew.Richards@softwire.com>
+Date:   Tue Feb 21 12:46:16 2017 +0000
+
+    Initial working solution
