@@ -11,19 +11,28 @@ namespace Chessington.GameEngine.Pieces
 
         public override IEnumerable<Square> GetAvailableMoves(Board board)
         {
+            // ideally, would want to pass in GameSettings to get the board size instead of hardcoding, but it doesn't like that being static
+            const int boardSize = 8;
             
             var availableMoves = new List<Square>();
-            
             var currentPosition = board.FindPiece(this);
 
 
             if (Player == Player.White)
             {
                 availableMoves.Add(new Square(currentPosition.Row - 1, currentPosition.Col));
+                if (currentPosition.Row == boardSize-1)
+                {
+                    availableMoves.Add(new Square(currentPosition.Row - 2, currentPosition.Col));
+                }
             }
             else if (Player == Player.Black)
             {
                 availableMoves.Add(new Square(currentPosition.Row + 1, currentPosition.Col));
+                if (currentPosition.Row == 1)
+                {
+                    availableMoves.Add(new Square(currentPosition.Row + 2, currentPosition.Col));
+                }
             }
             
             return availableMoves;
