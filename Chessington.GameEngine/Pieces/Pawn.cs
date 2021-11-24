@@ -14,8 +14,7 @@ namespace Chessington.GameEngine.Pieces
             
             var currentPosition = board.FindPiece(this);
 
-            var availableMoves = Moves.PawnMoves.AddMoves(board.BoardSize,currentPosition,Player);
-
+            var availableMoves = Moves.PawnMoves.AddMoves(board,currentPosition,Player);
             
             
             return availableMoves;
